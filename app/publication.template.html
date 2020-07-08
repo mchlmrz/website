@@ -1,0 +1,52 @@
+<div ng-repeat="groups in $ctrl.pubs">
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr>
+        <td style="padding:20px;width:100%;vertical-align:middle">
+          <heading>{{groups.heading}}</heading>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <!-- Here is where we need to filter based on the key -->
+      <!-- $ctrl.otherService.getKeys() -->
+      
+      <tr ng-repeat="pubc in groups.pubs | filter:{keywords:$ctrl.otherService.getKeys()}" class="boxproject">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img ng-src="{{pubc.img}}" width="160">
+          </div>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <!---<a href="mastert.html">--->
+          <papertitle>{{pubc.papertitle}} </papertitle>
+          <!---</a>--->
+          {{pubc.year}}
+          <br>
+          <!---<a href="mastert.html">--->Project page
+          <!---</a>--->
+          /
+          <a href="{{pubc.linktodata}}">{{pubc.dataname}}</a>
+          /
+          <!---<a href="mastert.html#videos">--->Videos
+          <!---</a>--->
+          /
+          <!---<a href="mastert.html#photos">--->Photos
+          <!---</a>--->
+          <br>
+          <p>
+            {{pubc.description}}
+          </p>
+          <p>
+            <!-- ng-mouseclick="$ctrl.addFilter({{key}})" -->
+          <span ng-repeat="key in pubc.keywords" ng-click="$ctrl.addFilter(key)" class="key"> <button type="button" class="btn btn-outline-secondary btn-sm" href="#{{key}}">{{key}}</button> </span>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

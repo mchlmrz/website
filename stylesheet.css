@@ -129,3 +129,29 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.profileImage {
+  border-radius: 50%;
+}
+
+.boxproject {
+  margin-top: 20px;
+  /* background-color: white; */
+  /* transition: border 0.5s; */
+  border-right: 0px solid black;  
+  float: left;
+}
+
+.boxproject:hover {
+  /* background-color: rgb(151, 187, 189); */
+  border-right: 1px solid black;
+}
+
+/* Todo: make it float on the right */
+.tagcloud {
+  margin: auto;
+}
+
+.key {
+  font-style: italic;
+}

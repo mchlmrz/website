@@ -1,0 +1,112 @@
+[
+    {"heading": "Research projects at ETH Zurich",
+        "pubs": [
+            {
+                "papertitle": "Electrical sensory feedback based on psychometric functions", 
+                "year": 2019, 
+                "dataname": "#",
+                "linktodata": "#",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/JND.png", 
+                "description": "I implemented a sensory feedback system that provides electrical stimulation enconding intensity of the information via a psychometric calibration.",
+                "keywords": ["C++","real-time", "embedded linux", "firmware", "mbedos", "Qt++"]
+            },
+            {
+                "papertitle": "Virtual reality synchronized with electrical stimulation", 
+                "year": 2019, 
+                "dataname": "",
+                "linktodata": "#",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/VR.png", 
+                "description": "In this project I had to develop from scratch a systme to implement a synchronous electrical stimulation to virtual-reality events shown in Unity3D. It required implementation of DLLs to communicate between different processes through pipe-lines.",
+                "keywords": ["Unity3D","C#", "C++", "pipe-line","DLL", "library","real-time"]
+            }
+        ]
+    },
+    {
+        "heading": "Thesis",
+        "pubs": [
+            {
+                "papertitle": "Master thesis - Lower-limb non-invasive sensory neuroprosthesis: real-time data visualization and calibration", 
+                "year": 2018, 
+                "dataname": "Thesis",
+                "linktodata": "data/Marazzi_Master_Thesis.pdf",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/1c.png", 
+                "description": "Thesis work was done at ETH Zurich. It included the implementation and testing of a real-time control platform for a sensory-feedback neuroprosthesis. The software allows to remotely control online the prosthesis and the possibility to calibrate the system. It has also been implemented the global closed-loop system that achieves a link between pressure sensors’ and stimuli intensities. Code optimization in C++ using a multi-thread approach.",
+                "keywords": ["C++","real-time"]
+            },
+            {
+                "papertitle": "Bachelor thesis - Near Infrared (NIR) oximeter", 
+                "year": 2015, 
+                "dataname": "Thesis",
+                "linktodata": "data/Marazzi_Bachelor_Thesis.pdf",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/PCB_TOT.png", 
+                "description": "The work I did for my bachelor was the complete development and test of a NIR oximeter. This meant the PCB design from scratch, mounting of the prototype and testing it. I programmed the firmware in C, and I showed the signal using labView. The system I developed included an Automatic Gain Controller(ACG) to exploit the full range of the ADC, independently from the signal level.",
+                "keywords": ["PCB","Electronics"]
+            }
+        ]
+    },
+    {
+        "heading": "Projects",
+        "pubs": [
+            {
+                "papertitle": "RehaStim library", 
+                "year": 2018, 
+                "dataname": "",
+                "linktodata": "#",
+                "linktoproject": "https://github.com/mchlmrz/rstimc",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/reha.png", 
+                "description": "I developed a library and client implementation to command in real-time RehaStim, the electrical stimulator from Hasomed. Currently, only the project that was used for testing the library is published. The functions are nonetheless usable for other implementations.",
+                "keywords": ["C++", "real-time", "multi-thread"]
+            },
+            {
+                "papertitle": "Hand haptic feedback - Student project", 
+                "year": 2017, 
+                "dataname": "",
+                "linktodata": "#",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/hand.jpg", 
+                "description": "During the Neuroengineering course at POLIMI I lead the development of a haptic feedback system for hand.",
+                "keywords": ["haptic feedback", "sensory feedback", "Arduino"]
+            },
+            {
+                "papertitle": "Breathing analysis with heat sensor - Student project", 
+                "year": 2017, 
+                "dataname": "",
+                "linktodata": "#",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/heat.jpg", 
+                "description": "During the \"Technologies for sensors and clinical instrumentation\" course at POLIMI I developed a device to measure breathing using a heat sensor.",
+                "keywords": ["electronics", "medical devices"]
+            },
+            {
+                "papertitle": "Arm wrestling motion analysis - Student project", 
+                "year": 2017, 
+                "dataname": "",
+                "linktodata": "#",
+                "linktoproject": "#",
+                "linktovideos": "#",
+                "linktophotos": "#",
+                "img": "images/arm_wrst.png", 
+                "description": "During the \"Technologies for motor behaviour analysis and virtual modelling\" course at POLIMI, I performed the recording and motion analysis of an arm-wresting movement.",
+                "keywords":["motion analysis"]
+            }
+        ]
+    }
+]

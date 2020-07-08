@@ -1,0 +1,26 @@
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+    <tbody>
+        <tr>
+            <td>
+                <heading>Scholarships and Awards</heading>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table width="100%" align="center" border="0" cellpadding="20">
+    <tbody>
+        <tr ng-repeat="groups in $ctrl.scandawgroups" ng-init="i = $index">
+            <td style="padding:20px;width:25%;vertical-align:middle"><img ng-src="{{groups.groupimage}}" width="160">
+            </td>
+            <td width="75%" valign="center">
+                <p ng-repeat="scandaw in groups.scandaws" ng-init="j = $index">
+                    <!-- Watch out! With <div> it does not work! -->
+                    <span ng-bind-html='$ctrl.renderHtml(i,j)'>{{i}} {{j}}</span>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</td>
+</tr>
+</table>

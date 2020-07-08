@@ -1,1 +1,1 @@
-Fork of Jon Barron website, porting it to an AngularJS implementation.
+Fork of Jon Barron website, porting his layout to an AngularJS implementation.

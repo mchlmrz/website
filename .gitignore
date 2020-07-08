@@ -1,0 +1,17 @@
+### Angular ###
+node_modules/
+bower_components/
+
+!node_modules/angular/angular.js
+!node_modules/angular-sanitize/angular-sanitize.js
+!node_modules/angular-route/angular-route.js
+!node_modules/angular-tag-cloud/src/ng-tag-cloud.js
+
+
+.vscode/
+jsconfig.json
+package.json
+package-lock.json
+.eslintrc.js
+
+.history
